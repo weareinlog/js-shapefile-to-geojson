@@ -1,0 +1,6 @@
+/node_modules
+/testdata
+/.sonarlint
+/shapes
+index.html
+files.html
