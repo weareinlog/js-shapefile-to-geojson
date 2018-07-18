@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wavded/js-shapefile-to-geojson.git"
+    "url": "https://github.com/weareinlog/js-shapefile-to-geojson.git"
   },
   "keywords": [
     "shapefile",
     "geojson",
     "gis"
   ],
-  "author": "Marc Harter",
+  "author": "Gabriel Marques",
   "license": "MIT",
   "readmeFilename": "readme.md",
-  "gitHead": "caaf49ad4749f29ab7bc85ecd644c5e81e010e79",
+  "gitHead": "6ee60833bc0a8bd23fadab1227fd73441dda9712",
   "bugs": {
-    "url": "https://github.com/wavded/js-shapefile-to-geojson/issues"
+    "url": "https://github.com/weareinlog/js-shapefile-to-geojson"
   }
 }
