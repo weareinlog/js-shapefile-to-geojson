@@ -1,5 +1,5 @@
 {
-  "name": "js-shapefile-to-geojson",
+  "name": "@inlog/js-shapefile-to-geojson",
   "version": "0.1.0",
   "description": "Convert Shapefiles to GeoJSON in the browser.",
   "main": "shapefile.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/weareinlog/js-shapefile-to-geojson.git"
+    "url": "git+https://github.com/weareinlog/js-shapefile-to-geojson.git"
   },
   "keywords": [
     "shapefile",
@@ -17,9 +17,10 @@
   ],
   "author": "Gabriel Marques",
   "license": "MIT",
-  "readmeFilename": "readme.md",
-  "gitHead": "6ee60833bc0a8bd23fadab1227fd73441dda9712",
   "bugs": {
     "url": "https://github.com/weareinlog/js-shapefile-to-geojson"
-  }
+  },
+  "homepage": "https://github.com/weareinlog/js-shapefile-to-geojson#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
