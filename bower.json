@@ -1,5 +1,5 @@
 {
-  "name": "@inlog/js-shapefile-to-geojson",
+  "name": "weareinlog/js-shapefile-to-geojson",
   "description": "Convert Shapefiles to GeoJSON in the browser.",
   "main": "shapefile.js",
   "authors": [
