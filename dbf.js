@@ -1,33 +1,5 @@
 (function(window,undefined){
 
-    if(window.document && window.Worker){
-        var worker = new Worker("dbf.js")
-
-        var DBF = function(url, callback){
-            var
-                w = this._worker = worker,
-                t = this
-
-            w.onmessage = function(e){
-                t.data = e.data
-                if (callback) callback(e.data);
-            };
-
-            w.postMessage(url)
-        }
-
-        window["DBF"] = DBF
-        return
-    }
-
-    var IN_WORKER = !window.document
-    if (IN_WORKER) {
-        importScripts('stream.js')
-        onmessage = function(e){
-            new DBF(e.data);
-        };
-    }
-
     var
         DBASE_LEVEL = {
             "3": "dBASE Level 5",
@@ -119,8 +91,7 @@
                     fields: this.fields,
                     records: this.records
                 }
-            if (IN_WORKER) postMessage(data)
-            else if (this.callback) this.callback(data)
+         this.callback(data)
         },
         readFileHeader: function(){
             var s = this.stream,

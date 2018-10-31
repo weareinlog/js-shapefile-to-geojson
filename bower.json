@@ -1,0 +1,27 @@
+{
+  "name": "@inlog/js-shapefile-to-geojson",
+  "description": "Convert Shapefiles to GeoJSON in the browser.",
+  "main": "shapefile.js",
+  "authors": [
+    "Gabriel Marques"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "shapefile",
+    "geojson",
+    "gis",
+    "weareinlog"
+  ],
+  "homepage": "https://github.com/weareinlog/js-shapefile-to-geojson",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "files.html",
+    "index.html",
+    "shapes",
+    ".sonarlint"
+  ]
+}
